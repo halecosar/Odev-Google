@@ -227,6 +227,9 @@ border-radius: 20px; /* Yuvarlak köşeler */
    user-select: none;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.814); /* Gölgeli efekt */
  }
+ .input{
+  padding-left: 4px;
+ }
  
 
  
