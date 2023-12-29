@@ -195,6 +195,16 @@ border-radius: 20px; /* Yuvarlak köşeler */
  .buttons{
  padding-bottom: 35%;}
  
+ .voicesearch{
+  
+ 
+    position: relative;
+    left: 270px;
+    padding-top: 0px;
+    cursor: pointer;   
+    margin-left: 40%;
+    border-radius: 4px;
+}
  
  
 
@@ -202,6 +212,7 @@ border-radius: 20px; /* Yuvarlak köşeler */
  .feelinglucky {
    background-color: #f8f9fa;
    border: 1px solid #f8f9fa;
+
    border-radius: 4px;
    color: #3c4043;
    font-family: arial, sans-serif;
