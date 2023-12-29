@@ -16,10 +16,13 @@ body{
   float:right;
   color: black;
   text-align: center;
-  padding: 5px 5px;
+  /* padding: 5px 5px; */
+  
+  padding-left: 30px;
+  padding-top: 10px;
   text-decoration: none;
   font-family: arial,sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   
 }
 
@@ -130,6 +133,7 @@ border-radius: 20px; /* Yuvarlak köşeler */
   cursor: pointer;
   user-select: none;
  
+ 
 }
 
 .feelinglucky {
@@ -139,6 +143,7 @@ border-radius: 20px; /* Yuvarlak köşeler */
   text-align: center;
   cursor: pointer;
   user-select: none;
+  
 }
 
 .footer {
@@ -186,25 +191,31 @@ border-radius: 20px; /* Yuvarlak köşeler */
   object-fit: cover;
 }
 
-.buttons .googlesearch,.feelinglucky{
-  
 
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
-  border-radius: 4px;
-  color: #3c4043;
-  font-family: arial,sans-serif;
-  font-size: 14px;
-  margin: 11px 4px;
-  padding: 0 16px;
-  line-height: 27px;
-  height: 36px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
+ .buttons{
+ padding-bottom: 35%;}
+ 
+ 
+ 
+
+ .googlesearch,
+ .feelinglucky {
+   background-color: #f8f9fa;
+   border: 1px solid #f8f9fa;
+   border-radius: 4px;
+   color: #3c4043;
+   font-family: arial, sans-serif;
+   font-size: 14px;
+   margin: 11px 4px;
+   padding: 0 16px;
+   line-height: 27px;
+   height: 36px;
+   min-width: 54px;
+   text-align: center;
+   cursor: pointer;
+   user-select: none;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.814); /* Gölgeli efekt */
  }
-
  
 
  
